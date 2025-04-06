@@ -266,8 +266,8 @@ h6 {
   }
 
   .navmenu li:hover>a,
-  .navmenu .active,
-  .navmenu .active:focus {
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.active:focus {
     color: var(--nav-hover-color);
   }
 
