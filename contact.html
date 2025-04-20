@@ -84,9 +84,9 @@
       <div class="row">
         <main class="col-md-12">
           <section id="contactform" class="row">
-            <h2 class="text-uppercase fs-5 fw-bolder pt-3">contact</h2>
+            <h2 class="text-uppercase fs-5 fw-bolder pt-3">Contact</h2>
             <p>
-              Vul het registratiefomulier in.<br />
+              Vul het vragenfomulier in.<br />
               Velden met een <span class="text-danger">*</span> zijn verplicht.
             </p>
             <hr />
@@ -97,28 +97,17 @@
                 </legend>
                 <div class="mb-3 col-md-6">
                   <label for="" class="form-label"
-                    >Voornaam <span class="text-danger">*</span></label
+                    >Naam <span class="text-danger">*</span></label
                   >
                   <input
                     type="text"
                     id=""
                     class="form-control"
-                    placeholder="Geef je voornaam in"
-                  />
-                </div>
-                <div class="mb-3 col-md-6">
-                  <label for="" class="form-label"
-                    >Achternaam <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="text"
-                    id=""
-                    class="form-control"
-                    placeholder="Geef je achternaam in"
+                    placeholder="Geef je naam in"
                   />
                 </div>
                 <div class="mb-3 col-6">
-                  <label for="" class="form-label">Mobiel</label>
+                  <label for="" class="form-label">Telefoon</label>
                   <input
                     type="tel"
                     id=""
@@ -127,144 +116,11 @@
                   />
                 </div>
                 <div class="mb-3 col-6">
-                  <label for="" class="form-label">Geboortedatum</label>
-                  <input
-                    type="date"
-                    id=""
-                    class="form-control"
-                    placeholder="Formaat: dd/mm/jjjj"
-                  />
+                  <label for="" class="form-label">Vraag of boodschap</label>
+                  <textarea class="form-control" id="boodschap" rows="3"></textarea>
                 </div>
               </fieldset>
-              <fieldset class="row mb-3 g3">
-                <legend class="text-uppercase fs-6 fw-bolder pt-3">
-                  Accountgegevens
-                </legend>
-                <div class="mb-3">
-                  <label for="" class="form-label"
-                    >E-mail <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="email"
-                    id=""
-                    class="form-control"
-                    placeholder="Geef je e-mailadres in"
-                  />
-                </div>
-                <div class="mb-3 col-md-6">
-                  <label for="" class="form-label"
-                    >Paswoord <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="password"
-                    id=""
-                    class="form-control"
-                    placeholder="min 8 karakters, 1 cijfer, 1 hoofdletter"
-                  />
-                </div>
-                <div class="mb-3 col-md-6">
-                  <label for="" class="form-label"
-                    >Bevestig paswoord <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="password"
-                    id=""
-                    class="form-control"
-                    placeholder="Bevestig je gekozen paswoord"
-                  />
-                </div>
-              </fieldset>
-              <fieldset class="row mb-3 g3">
-                <legend class="text-uppercase fs-6 fw-bolder pt-3">
-                  Adresgegevens
-                </legend>
-                <div class="mb-3">
-                  <label for="" class="form-label"
-                    >Adres <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="text"
-                    id=""
-                    class="form-control"
-                    placeholder="Geef je adres in"
-                  />
-                </div>
-                <div class="col-md-3 col-6">
-                  <label for="" class="form-label"
-                    >Postcode <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="text"
-                    id=""
-                    class="form-control"
-                    placeholder="Geef je postcode in"
-                  />
-                </div>
-                <div class="col-md-5 col-6">
-                  <label for="" class="form-label"
-                    >Stad <span class="text-danger">*</span></label
-                  >
-                  <input
-                    type="text"
-                    id=""
-                    class="form-control"
-                    placeholder="Geef je stad in"
-                  />
-                </div>
-                <div class="col-md-4">
-                  <label for="" class="form-label"
-                    >Kies een land <span class="text-danger">*</span></label
-                  >
-                  <select class="form-select" aria-label="Land keuze">
-                    <option value="0" selected>België</option>
-                    <option value="1">Duitsland</option>
-                    <option value="2">Frankrijk</option>
-                    <option value="3">Luxemburg</option>
-                    <option value="4">Nederland</option>
-                    <option value="5">Verenigd Koninkrijk</option>
-                  </select>
-                </div>
-              </fieldset>
-              <fieldset class="row mb-3 g3 col-12">
-                <legend class="text-uppercase fs-6 fw-bolder pt-3">
-                  Huidige studie
-                </legend>
-                <div class="col-6 mb-3">
-                  <label for="" class="form-label"
-                    >Ik studeer <span class="text-danger">*</span></label
-                  >
-                  <select class="form-select" aria-label="Studie keuze">
-                    <option value="0" selected>
-                      systeem- en netwerkbeheer
-                    </option>
-                    <option value="1">internet of things</option>
-                  </select>
-                </div>
-                <div class="col-md-12 mb-4">
-                  <label for="" class="form-label"
-                    >Hoe tevreden ben je van ons?</label
-                  >
-                  <input
-                    type="range"
-                    class="form-range"
-                    id="tevredenheid"
-                    min="0"
-                    max="10"
-                    step="1"
-                  />
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Algemene voorwaarden gelezen en goedgekeurd
-                  </label>
-                </div>
-              </fieldset>
+
               <button type="submit" class="btn btn-primary">Verzenden</button>
             </form>
           </section>
@@ -277,8 +133,8 @@
         <div class="copyright text-center">
           <p>
             © <span>Copyright</span>
-            <strong class="px-1 sitename">EasyFolio</strong>
-            <span>All Rights Reserved</span>
+            <strong class="px-1 sitename">Wim Boucquaert</strong>
+            
           </p>
         </div>
         <div class="social-links d-flex justify-content-center">
