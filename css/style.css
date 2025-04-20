@@ -1,1 +1,5 @@
 /* Chosen color theme "Complementair splitsen", change orange color #e87532 to them orange #FCAC32 */ 
+
+:root { 
+  --accent-color: #fcac32;
+}
