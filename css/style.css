@@ -2,8 +2,13 @@
 
 :root {
   --bs-heading-color: #3265fc;
+  --bs-link-color-rgb: #3265fc;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: var(--bs-heading-color);
+}
+
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
 }
