@@ -11,6 +11,6 @@
 
 /* Nav Menu Colors */
 :root {
-  --nav-color: #0a0f14;  /* The default color of the main navmenu links */
+  --nav-hover-color: #fcac32; /* Applied to main navmenu links when they are hovered over or active */
   --nav-dropdown-hover-color: #fcac32; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
