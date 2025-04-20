@@ -1,16 +1,1 @@
-/* Chosen color theme "Complementair splitsen", change orange color #e87532 to them orange #FCAC32 */ 
-
-:root { 
-  --accent-color: #fcac32;
-}
-
-/* Global Colors */
-:root { 
-  --accent-color: #fcac32; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-}
-
-/* Nav Menu Colors */
-:root {
-  --nav-hover-color: #fcac32; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-dropdown-hover-color: #fcac32; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
-}
+/* Chosen color theme "Complementair splitsen" */ 
