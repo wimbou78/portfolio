@@ -3,3 +3,14 @@
 :root { 
   --accent-color: #fcac32;
 }
+
+/* Global Colors */
+:root { 
+  --accent-color: #fcac32; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+}
+
+/* Nav Menu Colors */
+:root {
+  --nav-color: #0a0f14;  /* The default color of the main navmenu links */
+  --nav-dropdown-hover-color: #fcac32; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
