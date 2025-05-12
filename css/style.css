@@ -10,35 +10,53 @@
 */
 
 :root {
-  --bs-heading-color: #3265fc;
-  --bs-link-color-rgb: #3265fc;
-  --accent-color: #fcac32;
-  --heading-color: #57617d;
+  --fel-blauw: #3265fc;
+  --donker-oranje: #fcac32;
+  --blauw-grijs: #57617d;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: var(--bs-heading-color);
+  color: var(--fel-blauw);
 }
 
 .section-title h2 {
-  background: linear-gradient(120deg, var(--heading-color), var(--accent-color));
+  background: linear-gradient(110deg, var(--blauw-grijs), var(--donker-oranje));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+.section-title .title-shape {
+  color: var(--donker-oranje);
+}
+
 .about .about-content .subtitle {
-  color: var(--accent-color);
+  color: var(--donker-oranje);
 }
 
 a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  color: rgba(var(--fel-blauw), var(--bs-link-opacity, 1));
 }
 
 .scroll-top {
-  background-color: var(--accent-color);
+  background-color: var(--donker-oranje);
 }
 
 .navmenu li:hover>a, .navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link.active:focus {
   color: var(--nav-hover-color);
+}
+
+.footer .social-links a:hover {
+  color: var(--donker-oranje);
+  border-color: var(--donker-oranje);
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(#2fa4e7, #2d9cdb 60%, #288bc4);
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--fel-blauw);
+  border-color: var(--bs-btn-hover-border-color);
 }
