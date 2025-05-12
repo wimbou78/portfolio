@@ -1,14 +1,41 @@
 /* Chosen color theme "Complementair splitsen" */ 
 
+/*
+#fcdd32 light orange
+#fcac32 dark orange
+#3265fc fel blauw
+#57617d blauw grijs
+#7d7757 lelijk kaki
+#7d6e57 bruingrijs
+*/
+
 :root {
   --bs-heading-color: #3265fc;
   --bs-link-color-rgb: #3265fc;
+  --accent-color: #fcac32;
+  --heading-color: #57617d;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: var(--bs-heading-color);
 }
 
+.section-title h2 {
+  background: linear-gradient(120deg, var(--heading-color), var(--accent-color));
+}
+
+.about .about-content .subtitle {
+  color: var(--accent-color);
+}
+
 a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+}
+
+.scroll-top {
+  background-color: var(--accent-color);
+}
+
+.navmenu li:hover>a, .navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link.active:focus {
+  color: var(--nav-hover-color);
 }
