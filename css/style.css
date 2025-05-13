@@ -11,8 +11,11 @@
 
 :root {
   --fel-blauw: #3265fc;
+  --licht-oranje: #fcdd32;
   --donker-oranje: #fcac32;
   --blauw-grijs: #57617d;
+  --kaki: #7d7757;
+  --bruingrijs: #7d6e57;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -21,8 +24,6 @@
 
 .section-title h2 {
   background: linear-gradient(110deg, var(--blauw-grijs), var(--donker-oranje));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
@@ -51,8 +52,12 @@ a {
   border-color: var(--donker-oranje);
 }
 
+.btn-primary {
+  background-image: linear-gradient(--blauw-grijs, --fel-blauw 60%, --fel-blauw);
+}
+
 .btn-primary:hover {
-  background-image: linear-gradient(#2fa4e7, #2d9cdb 60%, #288bc4);
+  background-image: linear-gradient(--blauw-grijs, --fel-blauw 60%, --fel-blauw);
 }
 
 .btn:hover {
