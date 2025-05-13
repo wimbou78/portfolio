@@ -93,7 +93,7 @@
               Velden met een <span class="text-danger">*</span> zijn verplicht.
             </p>
             <hr />
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="needs-validation" novalidate>
+            <form name="contact" method="POST" netlify>
               <fieldset class="row mb-3 g3">
                 <legend class="text-uppercase fs-6 fw-bolder pt-3">
                   Gegevens
@@ -104,7 +104,8 @@
                   >
                   <input
                     type="text"
-                    id=""
+                    name="name"
+                    id="name"
                     class="form-control"
                     placeholder="Geef je naam in"
                   />
@@ -113,14 +114,15 @@
                   <label for="" class="form-label">Telefoon</label>
                   <input
                     type="tel"
-                    id=""
+                    id="telefoon"
+                    name="telefoon"
                     class="form-control"
                     placeholder="Formaat: +32 486 00 00 00"
                   />
                 </div>
                 <div class="mb-3 col-6">
                   <label for="" class="form-label">Vraag of boodschap</label>
-                  <textarea class="form-control" id="boodschap" rows="3"></textarea>
+                  <textarea class="form-control" id="boodschap" rows="3" name="boodschap"></textarea>
                 </div>
               </fieldset>
 
