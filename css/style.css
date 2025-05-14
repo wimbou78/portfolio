@@ -39,6 +39,10 @@ a {
   color: rgba(var(--fel-blauw), var(--bs-link-opacity, 1));
 }
 
+a.logo {
+  text-decoration: none;
+}
+
 .scroll-top {
   background-color: var(--donker-oranje);
 }
@@ -65,3 +69,17 @@ a {
   background-color: var(--fel-blauw);
   border-color: var(--bs-btn-hover-border-color);
 }
+
+.header .logo h1 {
+  color: var(--blauw-grijs);
+}
+
+/* Leaflet map */
+
+#mapLinkeroever {
+    /* neem de volle breedte in van het parent element en heeft een hoogte van 250px */
+    width: 100%;
+    height: 250px;
+}
+
+#map { height: 180px; }

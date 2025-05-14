@@ -35,7 +35,15 @@
 
     <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/bootstrap.min.css" rel="stylesheet" /><!-- https://bootswatch.com/cerulean/ -->
-    <link href="./css/style.css" rel="stylesheet" />
+
+    <!-- LEAFLET -->
+    <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Leaflet-->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <link href="./css/style.css" rel="stylesheet" />  
 
   </head>
   <body>
@@ -86,8 +94,14 @@
     <div class="container">
       <div class="row">
         <main class="col-md-12">
+
+          <h2 class="text-uppercase fs-5 fw-bolder pt-3">Contact</h2>
+
+          <section id="mapLinkeroever" class="row m-1">
+            <div id="map" class="col-12 mb-1"></div>
+          </section>
+
           <section id="contactform" class="row">
-            <h2 class="text-uppercase fs-5 fw-bolder pt-3">Contact</h2>
             <p>
               Vul het vragenfomulier in.<br />
               Velden met een <span class="text-danger">*</span> zijn verplicht.
@@ -129,6 +143,7 @@
               <button id="actionButton" type="submit" class="btn btn-primary">Verzenden</button>
             </form>
           </section>
+
         </main>
       </div>
     </div>
