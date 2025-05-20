@@ -80,11 +80,19 @@ section, .section {
     scroll-margin-top: 50px;
 }
 
+.section-title {
+    padding-bottom: 20px;
+}
+
 @media (min-width: 768px) { 
   section, .section {
       padding-top: 60px;
       scroll-margin-top: 90px;
   } 
+
+  .section-title {
+    padding-bottom: 60px;
+  }
 }
 
 /* Leaflet map */
