@@ -80,7 +80,7 @@ section, .section {
     scroll-margin-top: 50px;
 }
 
-.section-title {
+.section-title, .contact .section-title {
     padding-bottom: 20px;
 }
 
