@@ -74,6 +74,19 @@ a.logo {
   color: var(--blauw-grijs);
 }
 
+/* Section fine tuning */
+section, .section {
+    padding-top: 20px;
+    scroll-margin-top: 50px;
+}
+
+@media (min-width: 768px) { 
+  section, .section {
+      padding-top: 60px;
+      scroll-margin-top: 90px;
+  } 
+}
+
 /* Leaflet map */
 
 #mapLinkeroever {
