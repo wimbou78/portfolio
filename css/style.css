@@ -22,6 +22,10 @@
   color: var(--fel-blauw);
 }
 
+.portfolio-details .page-title .title-wrapper h1 {
+  color: var(--fel-blauw);
+}
+
 .section-title h2 {
   background: linear-gradient(110deg, var(--blauw-grijs), var(--donker-oranje));
   background-clip: text;
