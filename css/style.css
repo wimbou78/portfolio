@@ -22,6 +22,10 @@
   color: var(--fel-blauw);
 }
 
+.header .header-container {
+  border-radius: 15px;
+}
+
 .page-title .title-wrapper h1 + .portfolio-details {
   color: var(--fel-blauw);
 }
